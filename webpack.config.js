@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
 	mode: 'development',
-	entry: ['babel-polyfill', './src/dev-entry/dev.js'],
+	entry: ['./src/dev-entry/dev.js'],
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'bundle.[hash:5].js',
