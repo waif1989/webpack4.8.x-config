@@ -21,7 +21,7 @@ npm build
 ```
 ### Building Description
 ```
-Building files will put in dist folder.
+Building files will be putted in dist folder.
 The building component bundle is named 'index.js' which can be used as UMD or CMD module.
 ```
 ## License
