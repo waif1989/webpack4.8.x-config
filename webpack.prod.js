@@ -6,7 +6,7 @@ const baseConfig = require('./webpack.base');
 
 exports = module.exports = merge.smart(baseConfig, {
     mode: 'production',
-    entry: ['./src/index.js'],
+    entry: ['./src/build-entry'],
     output: {
         publicPath: './',
     },

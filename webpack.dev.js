@@ -8,7 +8,7 @@ const baseConfig = require('./webpack.base');
 
 exports = module.exports = merge.smart(baseConfig, {
     mode: 'development',
-    entry: ['./src/dev-entry/dev.js'],
+    entry: ['./src/dev-entry'],
     output: {
         publicPath: '/',
     },
